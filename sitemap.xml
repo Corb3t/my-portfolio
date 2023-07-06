@@ -1,68 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>https://www.corbet.app</loc>
-		<priority>1.00</priority>
-		<lastmod>2022-07-20</lastmod>
-	</url>
-	<url>
-		<loc>https://www.corbet.app/programming.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-22</lastmod>
-	</url>
-	<url>
-		<loc>https://www.corbet.app/littlelibrary.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-22</lastmod>
-	</url>
-	<url>
-		<loc>https://www.corbet.app/img</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.corbet.app/SI622.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.corbet.app/SI612.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.corbet.app/SI582.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.corbet.app/SI559.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.corbet.app/SI520.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-22</lastmod>
-	</url>
-	<url>
-		<loc>https://www.corbet.app/SI501.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.corbet.app/PAWLs.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-22</lastmod>
-	</url>
-	<url>
-		<loc>https://www.corbet.app/InsideOut.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-22</lastmod>
-	</url>
-	<url>
-		<loc>https://www.corbet.app/Boj.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-22</lastmod>
-	</url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://corbet.app/</loc>
+  <lastmod>2023-07-06T05:48:37+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://corbet.app/media/CorbetGriffithResume.pdf</loc>
+  <lastmod>2023-07-06T00:18:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://corbet.app/GSFC.html</loc>
+  <lastmod>2023-07-06T05:45:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://corbet.app/PAWLs.html</loc>
+  <lastmod>2023-07-06T05:44:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://corbet.app/littlelibrary.html</loc>
+  <lastmod>2023-07-06T05:45:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://corbet.app/programming.html</loc>
+  <lastmod>2023-07-06T05:45:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://corbet.app/Boj.html</loc>
+  <lastmod>2023-07-06T05:45:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://corbet.app/SI520.html</loc>
+  <lastmod>2023-07-06T05:45:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://corbet.app/index.html</loc>
+  <lastmod>2023-07-06T05:48:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
