@@ -10,7 +10,7 @@ body {
   color: #000000;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 500px) {
   body {
     padding-top: 0;
     padding-left: 0;
@@ -125,10 +125,10 @@ p.lead {
 
 .img-portfolio {
     position: relative;
-    max-width: 350px;
+    max-width: 1200px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   #sideNav {
     text-align: center;
     position: fixed;
