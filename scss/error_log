@@ -1,0 +1,4 @@
+[30-Jun-2024 12:04:33 UTC] PHP Notice:  Uninitialized string offset: 769 in /home/corbet/public_html/scss/expect.php on line 13
+[30-Jun-2024 12:04:39 UTC] PHP Notice:  Uninitialized string offset: 769 in /home/corbet/public_html/scss/expect.php on line 13
+[01-Jul-2024 11:59:26 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /opt/alt/php74/var/lib/php/session/sess_79cceee57901ca0172aaa6e93e99ca89(1) : eval()'d code on line 1
+[30-Oct-2024 12:52:53 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /opt/alt/php74/var/lib/php/session/sess_fe040d3d11fdb72cd9426a88dec24d65(1) : eval()'d code on line 1

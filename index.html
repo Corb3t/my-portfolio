@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-MPP3769");
-    </script>
-    <!-- End Google Tag Manager -->
+    <title>Corbet's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="With over 10 years of experience as a Project Manager and Business Systems Analyst, Corbet excels at transforming business owner’s initial concepts into real-world user-friendly solutions with a strong emphasis on UI/UX methodologies. Hire Corbet today."
+    />
+    <meta name="author" content="Corbet Griffith" />
+    <meta
+      name="keywords"
+      content="corbet, corbet griffith, corbet.app, corbet.dev, user experience, ui/ux, project, portfolio, project management"
+    />
+
     <!-- Google tag (gtag.js) -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-V61GYPD7ET"
+      src="https://www.googletagmanager.com/gtag/js?id=G-XDX5Y6CJHR"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -27,23 +29,8 @@
       }
       gtag("js", new Date());
 
-      gtag("config", "G-V61GYPD7ET");
+      gtag("config", "G-XDX5Y6CJHR");
     </script>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta
-      name="description"
-      content="With over 6 years of experience as a business systems analyst and project manager, Corbet excels at transforming business owner’s initial concepts into real-world user-friendly solutions with a strong emphasis on user-centered design methodologies. Hire Corbet today."
-    />
-    <meta name="author" content="Corbet Griffith" />
-    <meta
-      name="keywords"
-      content="corbet, corbet griffith, user experience, ui/ux, project, portfolio, project management"
-    />
-    <title>Corbet's UI/UX Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link
@@ -62,29 +49,48 @@
       rel="stylesheet"
     />
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/animate.css" />
     <link href="css/creative.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/imagehover.min.css" />
     <link rel="stylesheet" href="css/hover.css" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/favicons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons/apple-touch-icon.webp"
+    />
+    <link rel="mask-icon" href="/favicons/favicon.ico" color="blue" />
+    <meta name="apple-mobile-web-app-title" content="Corbet.app" />
+    <link rel="manifest" href="/favicons/site.webmanifest" />
+
     <link href="css/resume.css" rel="stylesheet" />
+
+    <!-- Medama Self Hosting Analytics -->
+    <script defer src="https://stats.corbet.io/script.js"></script>
+    <meta
+      name="have-i-been-pwned-verification"
+      value="dweb_kxmcp5y8btpgfsibpo7rfsfw"
+    />
   </head>
 
   <body id="page-top">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-MPP3769"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid container-md">
-        <img src="img/avatar.png" alt="Thats me" width="30" height="30" />
+        <img src="img/avatar.webp" alt="Thats me" width="30" height="30" />
         <a class="navbar-brand" href="#home">Corbet.app</a>
         <button
           class="navbar-toggler"
@@ -100,13 +106,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"
+              <a class="nav-link active" aria-current="page" href="#about"
                 >Home</a
               >
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="#experience">Experience</a>
             </li>
@@ -120,7 +126,25 @@
               <a class="nav-link" href="#hobbies">Hobbies</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#connect">Connect</a>
+              <a
+                class="nav-link"
+                href="/media/Corbet_Resume.pdf"
+                role="button"
+                target="_blank"
+                aria-label="Corbets Resume"
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="contact"
+                role="button"
+                aria-label="Email"
+                role="menuitem"
+                href="javascript:location='mailto:\u006d\u0065\u0040\u0063\u006f\u0072\u0062\u0065\u0074\u002e\u0061\u0070\u0070';void 0"
+                >E-mail me</a
+              >
             </li>
           </ul>
         </div>
@@ -131,437 +155,561 @@
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
           <div>
-            <div class="w-50 d-one d-sm-block">
-              <img
-                class="img-fluid img-profile img-constraint rounded-circle mx-auto mb-2"
-                src="img/avatar.png"
-                alt="Corbet Griffith's favicon"
-              />
+            <div class=" ">
+              <div class="w-50 d-one d-sm-block">
+                <img
+                  class="img-fluid img-profile img-constraint rounded-circle mx-auto mb-2"
+                  src="img/avatar.webp"
+                  alt="Corbet Griffith's favicon"
+                />
+              </div>
+              <h3 class="display-6 mb-3">
+                Hi, I'm <small class="text-muted display-6 mb-3"> Corbet</small>
+              </h3>
             </div>
-            <h3 class="display-6 mb-3">
-              Hi, I'm <small class="text-muted display-6 mb-3"> Corbet</small>
-            </h3>
             <p class="display-7">
-              I'm a Project Manager and UI/UX Researcher who recently managed
-              and delivered special projects for
-              <a href="https://www.ford.com">Ford's</a> Guest Experience dealer
-              and customer platform.
+              I'm a Project Manager and Business Systems Analyst who coordinates
+              projects for
+              <a href="https://www.ford.com" target="_blank">Ford's</a> digital
+              programs & experiences.
             </p>
 
             <p class="display-7">
-              I am passionate about giving users a voice at every step of the
-              development process. My colleagues would describe me as
-              <strong>Resourceful</strong> and a <strong>Team Player</strong>.
+              With over 10 years of experience in web & software development, my
+              work showcases my ability to manage large-scale projects and
+              programs throughout the Software Development Life Cycle with
+              stakeholders and developers from across the globe.
+            </p>
+
+            <p class="display-7">
+              My ongoing curiosity led me to pursue a Master of Science at the
+              University of Michigan, where I studied UI/UX Research and Design.
+              In my free time, I self-host a Linux server and deploy my own
+              digital infrastucture to learn more about how web technologies
+              work.
             </p>
           </div>
-          <a class="btn btn-primary" href="mailto:me@corbet.app" role="button"
+          <a
+            class="btn btn-primary"
+            id="contact"
+            role="button"
+            aria-label="E-mail Me"
+            href="javascript:location='mailto:\u006d\u0065\u0040\u0063\u006f\u0072\u0062\u0065\u0074\u002e\u0061\u0070\u0070';void 0"
             >E-mail me</a
           >
           <a
             class="btn btn-primary"
-            href="/media/CorbetGriffithResume.pdf"
+            href="/media/Corbet_Resume.pdf"
             role="button"
             target="_blank"
             >View Resume</a
           >
+          <div class="social-icons">
+            <a
+              rel="me"
+              href="https://www.linkedin.com/in/corbet/"
+              target="_blank"
+              aria-label="View my Linkedin"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              rel="me"
+              href="https://corb3t.github.io/projects/"
+              target="_blank"
+              aria-label="View my Github"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <!-- <a rel="me" href="https://mastodon.social/@corbet" target="_blank" aria-label="View my Mastodon">
+                       <i class="fab fa-mastodon"></i>
+                    </a> -->
+          </div>
         </div>
       </section>
     </div>
     <hr class="m-0" />
-    <p hidden>
-      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+    <div class="container-fluid p-0 animated slideInLeft">
+      <section
+        class="resume-section p-3 p-lg-5 d-flex flex-column"
+        id="experience"
+      >
         <div class="my-auto">
-            <h3 class="mb-4">Skills</h3>
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                <div class="resume-content mr-auto">
-                   <div class="accordion" id="accordionExample">
-                     <div class="accordion-item">
-                       <h5 class="accordion-header" id="headingOne">
-                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                           Accordion Item #1
-                         </button>
-                       </h5>
-                       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                         <div class="accordion-body">
-                           <strong>This is the first item's accordion body.</strong> It is shown bdfy default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                         </div>
-                       </div>
-                     </div>
-                     <div class="accordion-item">
-                       <h5 class="accordion-header" id="headingTwo">
-                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                           Accordion Item #2
-                         </button>
-                       </h5>
-                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                         <div class="accordion-body">
-                           <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                         </div>
-                       </div>
-                     </div>
-                     <div class="accordion-item">
-                       <h5 class="accordion-header" id="headingThree">
-                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                           Accordion Item #3
-                         </button>
-                       </h5>
-                       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                         <div class="accordion-body">
-                           <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                         </div>
-                       </div>
-                     </div>
-                   </div>
-                </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Business Systems Analyst</h4>
+              <div class="subheading mb-0">
+                <a href="https://www.jacksondawson.com/" target="_blank"
+                  >Jackson Dawson</a
+                >
+              </div>
+              <div class="resume-date text-md-left">
+                <span class="text-primary">Oct 2023 - Present</span>
+              </div>
+              <p></p>
+              <ul>
+                <li>
+                  Coordinate, plan, and manage
+                  <a href="https://www.ford.com" target="_blank">Ford's</a>
+                  owner experience projects, overseeing timelines, scope, and
+                  budgets to ensure alignment with business and stakeholder
+                  needs throughout the Software Development Life Cycle.
+                </li>
+                <li>
+                  Work with Ford stakeholders & cross-functional teams to gather
+                  business, technical, & functional requirements, create user
+                  stories, acceptance criteria, and flow diagrams in Azure
+                  DevOps.
+                </li>
+                <li>
+                  Serve as both Product Owner and Scrum Master, managing product
+                  backlogs, epics, and features. Lead agile ceremonies such as
+                  daily stand-ups, sprint planning, burn down analysis, and
+                  retrospectives to minimize churn, improve quality, and deliver
+                  projects efficiently with development teams.
+                </li>
+                <li>
+                  Plan and oversee User Acceptance and Quality Assurance
+                  Testing, ensuring all updates meet Ford’s requirements,
+                  address the needs of partners and users, and align with the
+                  Definition of Done.
+                </li>
+                <li>
+                  Oversee project integration of various web technologies &
+                  digital tools, integrating with digital tools and platforms
+                  such as Google Analytics, AWS, Shopify, Mailchimp, Mandrill,
+                  FileMaker, and Tableau while ensuring compliance with Ford
+                  data privacy policies and legal regulations.
+                </li>
+                <li>
+                  Collaborated with admins and on-site staff to analyze product
+                  issues, and support requests, implementing a streamlined
+                  process for issue tracking, which reduced response turnaround
+                  time from 3 days to 24 hours.
+                </li>
+                <li>
+                  Collaborate with design teams to ensure products are
+                  accessible, meeting WCAG standards and aligning with Ford’s
+                  accessibility guidelines.
+                </li>
+              </ul>
             </div>
-        </div>
-        </section>    -->
-    </p>
-    <section
-      class="resume-section p-3 p-lg-5 d-flex flex-column"
-      id="experience"
-    >
-      <div class="my-auto">
-        <h3 class="mb-1">Experience</h3>
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h4 class="mb-0">Business Systems Analyst - Delivery</h4>
-            <div class="subheading mb-0">
-              <a href="https://www.vmlyr.com/clients/ford" target="_blank"
-                >VMLY&R</a
-              >
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Course Assistant</h4>
+              <div class="subheading mb-0">
+                <a href="https://www.si.umich.edu/" target="_blank"
+                  >University of Michigan - Ann Arbor</a
+                >
+              </div>
+              <div class="resume-date text-md-left">
+                <span class="text-primary">Jan 2024 - Present</span>
+              </div>
+              <ul>
+                <li>
+                  Collaborated with Graduate Student Instructors (GSIs), Course
+                  Assistants, and Professors to standardize grading criteria and
+                  teaching methodologies for a 250-student
+                  <a
+                    href="https://www.si.umich.edu/programs/courses/422"
+                    target="_blank"
+                    >Needs Assessment & Usability Evaluation</a
+                  >
+                  course.
+                </li>
+                <li>
+                  Ensured a consistent and high-quality learning experience by
+                  incorporating continuous student feedback and refinement
+                  throughout the course.
+                </li>
+                <li>
+                  Graded, reviewed, and provided feedback on a variety of
+                  usability assignments, including: Personas and Scenarios,
+                  Competitive Analysis, Field Studies, Surveys, Interviews, Data
+                  Analysis, Heuristic Evaluations, Usability Testing, Journey
+                  Maps, and more.
+                </li>
+              </ul>
             </div>
-            <div class="resume-date text-md-left">
-              <span class="text-primary">August 2021 - June 2023</span>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Business Systems Analyst - Delivery</h4>
+              <div class="subheading mb-0">
+                <a href="https://www.vml.com/" target="_blank">VML</a>
+              </div>
+              <div class="resume-date text-md-left">
+                <span class="text-primary">Aug 2021 - June 2023</span>
+              </div>
+              <ul>
+                <li>
+                  Collaborated with client leadership to gather requirements and
+                  create prioritized user stories, acceptance criteria, and
+                  functional specs in Jira, enabling developers to enhance web
+                  platforms efficiently.
+                </li>
+                <li>
+                  Led User Acceptance Testing (UAT) and QA efforts to ensure
+                  targeted web and email updates met business and user needs.
+                </li>
+                <li>
+                  Streamlined the intake and prioritization process by
+                  standardizing design templates and user stories in Miro,
+                  reducing delivery time by three weeks.
+                </li>
+                <li>
+                  Actively participated in Agile ceremonies, including daily
+                  stand-ups and retrospectives, improving delivery efficiency
+                  and reducing churn.
+                </li>
+                <li>
+                  Partnered with Product Owners, SMEs, and cross-functional
+                  teams to implement personalized digital experiences using
+                  Adobe Analytics and Adobe Target.
+                </li>
+                <li>
+                  Managed tailored email campaigns for Product Owners,
+                  leveraging historical customer data to boost revenue through
+                  marketing channels.
+                </li>
+                <li>
+                  Conducted A/B tests with stakeholders to determine
+                  high-performing web content that drives conversions and sales.
+                </li>
+                <li>
+                  Coordinated product page updates in Adobe Experience Cloud,
+                  delivering personalized content within two days of product
+                  reveals.
+                </li>
+                <li>
+                  Facilitated journey mapping sessions in Figma with strategists
+                  to enhance the dealer management system (DMS) by understanding
+                  user needs and third-party touchpoints.
+                </li>
+              </ul>
             </div>
-            <p>
-              Recently, I worked on
-              <a href="https://www.ford.com" target="_blank">Ford's</a> Guest
-              Experience dealer management system, where I coordinate, plan,
-              document, and execute projects for the UI/UX Strategy team,
-              including working with Ford IT leads and their development team to
-              help deliver new digital experiences for Ford dealers and
-              customers across their entire ecosystem.
-            </p>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Project Manager</h4>
+              <div class="subheading mb-0">
+                <a href="https://www.gardenstateflowercoop.com/" target="_blank"
+                  >Garden State Flower Cooperative</a
+                >
+              </div>
+              <div class="resume-date text-md-left">
+                <span class="text-primary">Dec 2020 - May 2022</span>
+              </div>
+              <p>
+                I spearheaded the design, implementation, and testing of a
+                highly intuitive and
+                <a href="GSFC2.html">mobile-friendly preordering system</a>,
+                leveraging a diverse range of user experience methodologies to
+                gather valuable insights. Armed with these findings, I
+                implemented a new preordering process, enhancing it from both a
+                B2B and B2C standpoint, increasing user engagement and
+                propelling preorder sales to over 200% year over year.
+              </p>
+            </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Project Manager</h4>
+              <div class="subheading mb-0">
+                <a href="https://www.miflowercoop.com/" target="_blank"
+                  >Michigan Flower Growers' Cooperative</a
+                >
+              </div>
+              <div class="resume-date text-md-left">
+                <span class="text-primary">Jan 2020 - Aug 2020</span>
+              </div>
+              <p>
+                I led a comprehensive user experience research initiative for
+                the co-op's pre-order process, employing qualitative UX research
+                techniques that involved engaging flower growers and florists
+                through interviews. To gain deeper insights, I crafted a
+                detailed journey map of their experience and facilitated a
+                participatory design session to foster collaboration.
+              </p>
 
-            <p>
-              My responsibilities included various project management tasks,
-              such as defining acceptance criteria, epic, sub-epic, feature and
-              user story tickets, managing product backlog, conducting user
-              research, writing technical documentation, mapping user journeys,
-              planning agile sprints, conducting accessibility testing, and
-              resolving obstacles, across Ford's digital platforms.
-            </p>
+              <p>
+                Armed with these valuable insights and recommendations, I
+                spearheaded the implementation of an advanced mobile
+                pre-ordering system. This innovative solution enables florists
+                and buyers to effortlessly add inventory and place pre-orders
+                for the upcoming market day, all from the convenience of any
+                mobile device. We also empowered growers to manage and fulfill
+                orders on-the-go, thanks to a user-friendly interface accessible
+                on their phones.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h4 class="mb-0">Project Manager</h4>
-            <div class="subheading mb-0">
-              <a href="https://www.gardenstateflowercoop.com/" target="_blank"
-                >Garden State Flower Cooperative</a
-              >
-            </div>
-            <div class="resume-date text-md-left">
-              <span class="text-primary">December 2020 - May 2022</span>
-            </div>
-            <p>
-              I spearheaded the design, implementation, and testing of a highly
-              intuitive and
-              <a href="GSFC.html">mobile-friendly preordering system</a>,
-              leveraging a diverse range of user experience methodologies to
-              gather valuable insights. Armed with these findings, I implemented
-              a new preordering process, enhancing it from both a B2B and B2C
-              standpoint, increasing user engagement and propelling preorder
-              sales to an astounding 200% increase.
-            </p>
-          </div>
-        </div>
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h4 class="mb-0">User Experience Consultant</h4>
-            <div class="subheading mb-0">
-              <a href="https://www.miflowercoop.com/" target="_blank"
-                >Michigan Flower Growers' Cooperative</a
-              >
-            </div>
-            <div class="resume-date text-md-left">
-              <span class="text-primary">January 2020 - August 2020</span>
-            </div>
-            <p>
-              I led a comprehensive user experience research initiative for the
-              co-op's pre-order process, employing qualitative UX research
-              techniques that involved engaging flower growers and florists
-              through interviews. To gain deeper insights, I crafted a detailed
-              journey map of their experience and facilitated a participatory
-              design session to foster collaboration.
-            </p>
 
-            <p>
-              Armed with these valuable insights and recommendations, I
-              spearheaded the implementation of an advanced mobile pre-ordering
-              system. This innovative solution enables florists and buyers to
-              effortlessly add inventory and place pre-orders for the upcoming
-              market day, all from the convenience of any mobile device. We also
-              empowered growers to manage and fulfill orders on-the-go, thanks
-              to a user-friendly interface accessible on their phones.
-            </p>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Business Systems Analyst</h4>
+              <div class="subheading mb-0">
+                <a href="https://tax.thomsonreuters.com/en" target="_blank"
+                  >Thomson Reuters</a
+                >
+              </div>
+              <div class="resume-date text-md-left">
+                <span class="text-primary">Aug 2014 - Oct 2018</span>
+              </div>
+              <p>
+                While at Thomson, I designed, prototyped, and tested new
+                software features for the
+                <a
+                  href="https://tax.thomsonreuters.com/us/en/cs-professional-suite"
+                  >Accounting CS</a
+                >
+                software suite. I also wrote and implemented end-to-end quality
+                assurance testing plans and collaborated with dozens of
+                international colleagues remotely to ensure our software was
+                free of bugs. Lastly, I wrote and executed complex SQL queries
+                on large data sets for our clients and internal teams.
+              </p>
+            </div>
           </div>
         </div>
+      </section>
+      <hr class="m-0" />
+      <section
+        class="resume-section p-3 p-lg-5 d-flex flex-column"
+        id="portfolio"
+      >
+        <div class="my-auto">
+          <h3 class="mb-2">Portfolio</h3>
+          <div class="container-fluid p-0">
+            <div class="row no-gutters">
+              <div class="col-lg-4 col-sm-6 mb-2 pr-2 pl-2 mt-2">
+                <a class="portfolio-box" href="/GSFC2.html">
+                  <img
+                    class="img-fluid"
+                    src="img/gsfcc.webp"
+                    alt="Garden State Flower Cooperative"
+                  />
+                  <div class="portfolio-box-caption">
+                    <div class="project-category text-white-50">
+                      Consulting | Project Management | UI/UX Research
+                    </div>
+                    <div class="project-name">
+                      Garden State Flower Cooperative
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-2 pr-2 pl-2 mt-2">
+                <a class="portfolio-box" href="/PAWLs.html">
+                  <img
+                    class="img-fluid"
+                    src="img/work-4.webp"
+                    alt="Pervasive Design Project"
+                  />
+                  <div class="portfolio-box-caption">
+                    <div class="project-category text-white-50">
+                      Pervasive Interaction Design | Hardware & Software
+                      Prototype
+                    </div>
+                    <div class="project-name">PAWLs Smart Dog Kennel</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-2 pr-2 pl-2 mt-2">
+                <a class="portfolio-box" href="/littlelibrary.html">
+                  <img
+                    class="img-fluid"
+                    src="img/work-1.webp"
+                    alt="Interaction Design - Lil Library App"
+                  />
+                  <div class="portfolio-box-caption">
+                    <div class="project-category text-white-50">
+                      Interaction Design | Programming
+                    </div>
+                    <div class="project-name">Lil Library</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-2 pr-2 pl-2 mt-2">
+                <a class="portfolio-box" href="/programming.html">
+                  <img
+                    class="img-fluid"
+                    src="img/programmingicon.webp"
+                    alt="Programming Projects"
+                  />
+                  <div class="portfolio-box-caption">
+                    <div class="project-category text-white-50">
+                      Programming
+                    </div>
+                    <div class="project-name">Python & Java Projects</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-2 pr-2 pl-2 mt-2">
+                <a class="portfolio-box" href="/Boj.html">
+                  <img
+                    class="img-fluid"
+                    src="img/project4.webp"
+                    alt="Needs Assessment & Usability - Boj"
+                  />
+                  <div class="portfolio-box-caption">
+                    <div class="project-category text-white-50">
+                      Needs Assessment & Usability
+                    </div>
+                    <div class="project-name">Boj Mobile App</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-2 pr-2 pl-2 mt-2">
+                <a class="portfolio-box" href="/SI520.html">
+                  <img
+                    class="img-fluid"
+                    src="img/work-3.webp"
+                    alt="Graphic Design"
+                  />
+                  <div class="portfolio-box-caption">
+                    <div class="project-category text-white-50">
+                      Graphic Design
+                    </div>
+                    <div class="project-name">Various Projects</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container-fluid p-0 animated slideInLeft">
+      <hr class="m-0" />
+      <section
+        class="resume-section p-3 p-lg-5 d-flex flex-column"
+        id="education"
+      >
+        <div class="my-auto">
+          <h3 class="mb-0">Education</h3>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h4 class="mb-0">Business Systems Analyst</h4>
-            <div class="subheading mb-0">
-              <a href="https://tax.thomsonreuters.com/en" target="_blank"
-                >Thomson Reuters</a
-              >
-            </div>
-            <div class="resume-date text-md-left">
-              <span class="text-primary">Aug 2014 - Oct 2018</span>
-            </div>
-            <p>
-              While at Thomson, I designed, prototyped, and tested new software
-              features for the
-              <a
-                href="https://tax.thomsonreuters.com/us/en/cs-professional-suite"
-                >Accounting CS</a
-              >
-              software suite. I also wrote and implemented end-to-end quality
-              assurance testing plans and collaborated with dozens of
-              international colleagues remotely to ensure our software was free
-              of bugs. Lastly, I wrote and executed complex SQL queries on large
-              data sets for our clients and internal teams.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <section
-      class="resume-section p-3 p-lg-5 d-flex flex-column"
-      id="portfolio"
-    >
-      <div class="my-auto">
-        <h3 class="mb-2">Portfolio</h3>
-        <div class="container-fluid p-0">
-          <div class="row no-gutters">
-            <div class="col-lg-4 col-sm-6 mb-2 pr-2 pl-2 mt-2">
-              <a class="portfolio-box" href="/GSFC2.html">
-                <img
-                  class="img-fluid"
-                  src="img/gsfc.png"
-                  alt="Garden State Flower Cooperative"
-                />
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">
-                    Consulting | Project Management | UI/UX Research
-                  </div>
-                  <div class="project-name">
-                    Garden State Flower Cooperative
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-2 pr-2 pl-2 mt-2">
-              <a class="portfolio-box" href="/PAWLs.html">
-                <img
-                  class="img-fluid"
-                  src="img/work-4.png"
-                  alt="Pervasive Design Project"
-                />
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">
-                    Pervasive Interaction Design | Hardware & Software Prototype
-                  </div>
-                  <div class="project-name">PAWLs Smart Dog Kennel</div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-2 pr-2 pl-2 mt-2">
-              <a class="portfolio-box" href="/littlelibrary.html">
-                <img
-                  class="img-fluid"
-                  src="img/work-1.png"
-                  alt="Interaction Design - Lil Library App"
-                />
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">
-                    Interaction Design | Programming
-                  </div>
-                  <div class="project-name">Lil Library</div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-2 pr-2 pl-2 mt-2">
-              <a class="portfolio-box" href="/programming.html">
-                <img
-                  class="img-fluid"
-                  src="img/programmingicon.png"
-                  alt="Programming Projects"
-                />
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">Programming</div>
-                  <div class="project-name">Python & Java Projects</div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-2 pr-2 pl-2 mt-2">
-              <a class="portfolio-box" href="/Boj.html">
-                <img
-                  class="img-fluid"
-                  src="img/project4.png"
-                  alt="Needs Assessment & Usability - Boj"
-                />
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">
-                    Needs Assessment & Usability
-                  </div>
-                  <div class="project-name">Boj Mobile App</div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-2 pr-2 pl-2 mt-2">
-              <a class="portfolio-box" href="/SI520.html">
-                <img
-                  class="img-fluid"
-                  src="img/work-3.png"
-                  alt="Graphic Design"
-                />
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">
-                    Graphic Design
-                  </div>
-                  <div class="project-name">Various Projects</div>
-                </div>
-              </a>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">
+                <a
+                  href="https://www.si.umich.edu/programs/master-science-information/curriculum/ux-research-and-design/"
+                  target="_blank"
+                  >University of Michigan</a
+                >
+              </h4>
+              <div class="subheading mb-0">
+                Master of Science in Information
+              </div>
+              <div class="resume-date text-md-left">
+                <span class="text-primary">2018 to 2020 | 3.91 GPA</span>
+              </div>
+              <div>
+                I majored in User Experience Research and Design, which allowed
+                me to partner with <a href="#portfolio">clients</a> to conduct
+                human-centered design research, including
+                <a href="/GSFC.html#journeymap">journey maps</a>,
+                <a href="/PAWLs.html#diarystudy">diary studies</a>,
+                <a href="/littlelibrary.html#wireframe">wireframing</a>,
+                <a href="/littlelibrary.html#prototype">prototyping</a>,
+                <a href="/PAWLs.html#surveys">surveys</a>, A/B testing,
+                participatory design, usability testing, thematic analysis,
+                focus groups, and interviews.
+              </div>
+              <br />
+              <div>
+                In my Mobile Innovation Development class, I lead the mobile app
+                development of my
+                <a href="http://www.corbetgriffith.com/littlelibrary.html"
+                  >Lil Library</a
+                >
+                idea from
+                <a href="/littlelibrary.html#prototype">initial concept</a> to
+                reality, where we created a
+                <a
+                  href="https://github.com/Corb3t/TO-626-Little-Library-Android-Project"
+                  >mobile application</a
+                >
+                in Java using Android Studio.
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <section
-      class="resume-section p-3 p-lg-5 d-flex flex-column"
-      id="education"
-    >
-      <div class="my-auto">
-        <h3 class="mb-0">Education</h3>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h4 class="mb-0">
-              <a
-                href="https://www.si.umich.edu/programs/master-science-information/curriculum/ux-research-and-design/"
-                target="_blank"
-                >University of Michigan</a
-              >
-            </h4>
-            <div class="subheading mb-0">Master of Science in Information</div>
-            <div class="resume-date text-md-left">
-              <span class="text-primary">Graduated 2020 | GPA: 3.91</span>
-            </div>
-            <div>
-              I majored in User Experience Research and Design, which allowed me
-              to partner with <a href="#portfolio">clients</a> to conduct
-              human-centered design research, including
-              <a href="/GSFC.html#journeymap">journey maps</a>, usability
-              testing, A/B testing,
-              <a href="/PAWLs.html#diarystudy">diary studies</a>,
-              <a href="/littlelibrary.html#wireframe">wireframing</a>,
-              <a href="/littlelibrary.html#prototype">prototyping</a>,
-              participatory design, thematic analysis, focus groups,
-              <a href="/PAWLs.html#surveys">surveys</a>, and interviews.
-            </div>
-            <br />
-            <div>
-              In my Mobile Innovation Development class, I lead the mobile app
-              development of my
-              <a href="http://www.corbetgriffith.com/littlelibrary.html"
-                >Lil Library</a
-              >
-              idea from
-              <a href="/littlelibrary.html#prototype">initial concept</a> to
-              reality, where we created a
-              <a
-                href="https://github.com/Corb3t/TO-626-Little-Library-Android-Project"
-                >mobile application</a
-              >
-              in Java using Android Studio.
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">
+                <a href="https://www.utoledo.edu/" target="_blank"
+                  >University of Toledo</a
+                >
+              </h4>
+              <div class="subheading mb-0">
+                Bachelor of Business Administration
+              </div>
+              <div class="resume-date text-md-left">
+                <span class="text-primary">2008 to 2010</span>
+              </div>
+              <div>Majored in Marketing & eCommerce</div>
             </div>
           </div>
         </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row">
-          <div class="resume-content mr-auto">
-            <h4 class="mb-0">
-              <a href="https://www.utoledo.edu/" target="_blank"
-                >University of Toledo</a
-              >
-            </h4>
-            <div class="subheading mb-0">
-              Bachelors of Business Administration
-            </div>
-            <div class="resume-date text-md-left">
-              <span class="text-primary">Graduated 2010</span>
-            </div>
-            <div>Marketing & Sales</div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="connect">
-      <div class="my-auto">
-        <h3 class="mb-3">Connect</h3>
-        <a class="btn btn-primary" href="mailto:me@corbet.app" role="button"
-          >E-mail me</a
-        >
-        <a
-          class="btn btn-primary"
-          href="/media/CorbetGriffithResume.pdf"
-          role="button"
-          target="_blank"
-          >View Resume</a
-        >
-        <div class="social-icons">
+      </section>
+    </div>
+    <div class="container-fluid p-0 animated slideInLeft">
+      <hr class="m-0" />
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="connect">
+        <div class="my-auto">
+          <h3 class="mb-3">Connect</h3>
           <a
-            rel="me"
-            href="https://www.linkedin.com/in/corbet/"
-            target="_blank"
+            class="btn btn-primary"
+            id="contact"
+            role="button"
+            href="javascript:location='mailto:\u006d\u0065\u0040\u0063\u006f\u0072\u0062\u0065\u0074\u002e\u0061\u0070\u0070';void 0"
+            >E-mail me</a
           >
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a rel="me" href="https://github.com/Corb3t" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-          <a rel="me" href="https://twitter.com/Corbet" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a rel="me" href="https://mastodon.social/@corbet" target="_blank">
-            <i class="fab fa-mastodon"></i>
-          </a>
-          <a rel="me" href="https://www.last.fm/user/Corbet" target="_blank">
-            <i class="fab fa-lastfm"></i>
-          </a>
+          <a
+            class="btn btn-primary"
+            href="/media/Corbet_Resume.pdf"
+            role="button"
+            target="_blank"
+            >View Resume</a
+          >
+          <div class="social-icons">
+            <a
+              rel="me"
+              href="https://www.linkedin.com/in/corbet/"
+              target="_blank"
+              aria-label="View my Linkedin"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              rel="me"
+              href="https://corb3t.github.io/projects/"
+              target="_blank"
+              aria-label="Visit my Github"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              rel="me"
+              href="https://mastodon.social/@corbet"
+              target="_blank"
+              aria-label="View my Matodon"
+            >
+              <i class="fab fa-mastodon"></i>
+            </a>
+            <a
+              rel="me"
+              href="https://www.last.fm/user/Corbet"
+              target="_blank"
+              aria-label="View my Last.fm"
+            >
+              <i class="fab fa-lastfm"></i>
+            </a>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
-    <p hidden>
-      <a rel="me" href="https://hci.social/@corbet">Mastodon</a>
-      <a rel="me" href="https://mstdn.games/@corbet">Mastodon</a>
-    </p>
+      </section>
+    </div>
   </body>
 </html>

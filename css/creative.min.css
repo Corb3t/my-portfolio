@@ -15,7 +15,7 @@
     --purple: #6f42c1;
     --pink: #e83e8c;
     --red: #dc3545;
-    --orange: #f4623a;
+    --orange: #BA5903;
     --yellow: #ffc107;
     --green: #28a745;
     --teal: #20c997;
@@ -4868,6 +4868,7 @@ input[type=submit].btn-block {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    text-align: right;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none
@@ -4875,6 +4876,7 @@ input[type=submit].btn-block {
 
 .navbar-nav .nav-link {
     padding-right: 0;
+    text-align: right;
     padding-left: 0
 }
 
@@ -4885,6 +4887,7 @@ input[type=submit].btn-block {
 
 .navbar-text {
     display: inline-block;
+    text-align: right;
     padding-top: .5rem;
     padding-bottom: .5rem
 }
@@ -5050,35 +5053,41 @@ input[type=submit].btn-block {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
         -webkit-box-pack: start;
+        text-align: right;
         -ms-flex-pack: start;
         justify-content: flex-start
     }
 
     .navbar-expand-lg .navbar-nav {
         -webkit-box-orient: horizontal;
+        text-align: right;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row
     }
 
     .navbar-expand-lg .navbar-nav .dropdown-menu {
+        text-align: right;
         position: absolute
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: .5rem;
+        text-align: right;
         padding-left: .5rem
     }
 
     .navbar-expand-lg>.container,
     .navbar-expand-lg>.container-fluid {
         -ms-flex-wrap: nowrap;
+        text-align: right;
         flex-wrap: nowrap
     }
 
     .navbar-expand-lg .navbar-collapse {
         display: -webkit-box !important;
         display: -ms-flexbox !important;
+        text-align: right;
         display: flex !important;
         -ms-flex-preferred-size: auto;
         flex-basis: auto
@@ -5094,6 +5103,7 @@ input[type=submit].btn-block {
     .navbar-expand-xl>.container,
     .navbar-expand-xl>.container-fluid {
         padding-right: 0;
+        text-align: right;
         padding-left: 0
     }
 }
@@ -5105,6 +5115,7 @@ input[type=submit].btn-block {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
         -webkit-box-pack: start;
+        text-align: right;
         -ms-flex-pack: start;
         justify-content: flex-start
     }
@@ -5113,6 +5124,7 @@ input[type=submit].btn-block {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
+        text-align: right;
         flex-direction: row
     }
 
@@ -11722,6 +11734,7 @@ hr.light {
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     font-size: .9rem;
+    text-align: right;
     padding: .75rem 0
 }
 
@@ -11751,14 +11764,17 @@ hr.light {
 
     #mainNav .navbar-nav .nav-item .nav-link {
         color: rgba(255, 255, 255, .7);
+        text-align: right;
         padding: 0 1rem
     }
 
     #mainNav .navbar-nav .nav-item .nav-link:hover {
+        text-align: right;
         color: #fff
     }
 
     #mainNav .navbar-nav .nav-item:last-child .nav-link {
+        text-align: right;
         padding-right: 0
     }
 

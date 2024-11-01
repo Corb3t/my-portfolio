@@ -96,7 +96,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #BA5903;
 }
 
 .dev-icons {
@@ -104,7 +104,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #BA5903;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -126,6 +126,47 @@ p.lead {
 .img-portfolio {
     position: relative;
     max-width: 1200px;
+}
+
+/* General Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+/* Mobile Styles */
+.nav-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-toggle:checked + .nav-list {
+        display: flex;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -211,15 +252,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #BA5903 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #BA5903 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #BA5903;
 }
 
 a:hover, a:focus, a:active {
