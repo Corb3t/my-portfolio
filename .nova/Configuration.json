@@ -1,0 +1,25 @@
+{
+  "eablokker.tabsSidebar.config.collapsedFolders" : [
+
+  ],
+  "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
+    "html",
+    "json"
+  ],
+  "eablokker.tabsSidebar.config.customTabOrder" : [
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/index.html",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/.nova\/Configuration.json",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/SI520.html",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/GSFC2.html",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/littlelibrary.html",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/.Trash\/favicons\/site.webmanifest",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/PAWLs.html",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/Boj.html",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/programming.html"
+  ],
+  "workspace.art_style" : 1,
+  "workspace.color" : 7,
+  "workspace.name" : "Corbetdotapp Local",
+  "workspace.preview_root" : ".",
+  "workspace.preview_server_allow_external" : false
+}
