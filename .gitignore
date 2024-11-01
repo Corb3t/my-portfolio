@@ -38,5 +38,8 @@ Temporary Items
 ### Nova
 .nova
 .nova/*
+.nova/Configuration.json
+.nova/Publishing/*
+.nova/Publishing/Corbet.app Remote.json
 
 # End of https://www.toptal.com/developers/gitignore/api/macos.DS_Store
