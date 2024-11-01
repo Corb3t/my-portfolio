@@ -6,7 +6,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-.*
+
 
 # Icon must end with two \r
 Icon
@@ -37,9 +37,10 @@ Temporary Items
 
 ### Nova
 .nova
-.nova/*
-.nova/Configuration.json
-.nova/Publishing/*
-.nova/Publishing/Corbet.app Remote.json
+
+### All .dot except gitignore
+/**/.*  # ignore all dotted files
+/**/.*/ # ignore all dotted folders
+!/.gitignore  # except `gitignore`
 
 # End of https://www.toptal.com/developers/gitignore/api/macos.DS_Store
