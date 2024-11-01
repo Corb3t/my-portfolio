@@ -40,7 +40,7 @@ Temporary Items
 
 ### All .dot except gitignore
 /**/.*  # ignore all dotted files
-/**/.*/ # ignore all dotted folders
+.*/ # ignore all dotted folders
 !/.gitignore  # except `gitignore`
 
 # End of https://www.toptal.com/developers/gitignore/api/macos.DS_Store
