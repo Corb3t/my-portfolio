@@ -4,18 +4,20 @@
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
     "html",
-    "json"
+    "json",
+    "plaintext"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
-    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/index.html",
     "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/.nova\/Configuration.json",
-    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/SI520.html",
-    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/GSFC2.html",
-    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/littlelibrary.html",
     "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/.Trash\/favicons\/site.webmanifest",
-    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/PAWLs.html",
-    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/Boj.html",
-    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/programming.html"
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/.Trash\/SI520%2011.07.09%E2%80%AFPM.html",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/.Trash\/GSFC2%2011.07.07%E2%80%AFPM.html",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/.Trash\/littlelibrary%2011.07.07%E2%80%AFPM.html",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/.Trash\/index%2011.07.05%E2%80%AFPM.html",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/.Trash\/PAWLs%2011.07.05%E2%80%AFPM.html",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/com~apple~CloudDocs\/Developer\/Corbetdotapp\/vendor\/jquery\/jquery.slim.min.map",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/.Trash\/Boj%2011.07.06%E2%80%AFPM.html",
+    "file:\/\/\/Users\/corbet\/Library\/Mobile%20Documents\/.Trash\/programming%2011.07.08%E2%80%AFPM.html"
   ],
   "workspace.art_style" : 1,
   "workspace.color" : 7,
