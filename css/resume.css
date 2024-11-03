@@ -125,13 +125,31 @@ p.lead {
 
 .img-constraint {
   position: relative;
-  max-height: 250px;
-  max-width: 250px;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.responsive-avatar {
+  max-height: 200px; /* Max height for large screens */
+  width: auto; /* Maintains aspect ratio */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 576px) {
+  .responsive-avatar {
+    max-height: 50vh; /* Up to 50% of viewport height on smaller screens */
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .responsive-avatar {
+    max-height: 150px; /* Slightly smaller for medium screens */
+  }
 }
 
 .larger-img {
   width: 150%; /* Increases size by 50% */
-  max-width: 250px; /* Set a max width to prevent it from growing too large */
+  max-width: 200px; /* Set a max width to prevent it from growing too large */
 }
 
 @media (max-width: 200px) {
