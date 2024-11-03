@@ -137,13 +137,13 @@ p.lead {
 /* Media query for smaller screens */
 @media (max-width: 576px) {
   .responsive-avatar {
-    max-height: 50vh; /* Up to 50% of viewport height on smaller screens */
+    max-height: 30vh; /* Up to 50% of viewport height on smaller screens */
   }
 }
 
 @media (max-width: 768px) and (min-width: 576px) {
   .responsive-avatar {
-    max-height: 150px; /* Slightly smaller for medium screens */
+    max-height: 200px; /* Slightly smaller for medium screens */
   }
 }
 
