@@ -334,3 +334,36 @@ a:active {
   max-height: 100%;
   image-rendering: crisp-edges;
 }
+
+.skills-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; /* Smaller gap for wider displays */
+  margin: 2rem 0;
+  padding-left: 1rem; /* Adds space to the left */
+}
+
+/* Media query for tablet view: increase space between columns */
+@media (max-width: 1200px) {
+  .skills-section {
+    gap: 2rem; /* Wider gap for medium to large screens */
+  }
+}
+
+/* Media query for mobile view: switches to 2 columns */
+@media (max-width: 768px) {
+  .skills-section {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 0.5rem; /* Adjust left space on medium screens */
+    gap: 1.5rem; /* Further increase spacing on smaller screens */
+  }
+}
+
+/* Media query for mobile view: switches to 1 column */
+@media (max-width: 576px) {
+  .skills-section {
+    grid-template-columns: 1fr;
+    padding-left: 0; /* Remove left space for small screens */
+    gap: 1rem; /* Adjust gap for mobile display */
+  }
+}
